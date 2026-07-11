@@ -66,10 +66,15 @@ def extract_fields(client: Anthropic, page_text: str) -> dict:
     msg = client.messages.create(
         model=MODEL,
         max_tokens=1024,
+        thinking={"type": "disabled"},
         system=EXTRACTION_SYSTEM_PROMPT,
         messages=[{"role": "user", "content": f"Webpage text:\n\n{page_text}"}],
     )
-    raw = msg.content[0].text.strip()
+    text_block = next((b for b in msg.content if b.type == "text"), None)
+    if text_block is None:
+        print("  ! no text block in model response", file=sys.stderr)
+        return {}
+    raw = text_block.text.strip()
     if raw.startswith("```"):
         raw = raw.strip("`")
         if raw.startswith("json"):
