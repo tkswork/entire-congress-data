@@ -1,0 +1,32 @@
+name: Update Congress Data
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # every Monday 06:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r scripts/requirements.txt
+
+      - run: python3 scripts/update_congress_data.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "congress-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add congress_module.json
+          git diff --cached --quiet || git commit -m "Auto-update congress data $(date -u +%F)"
+          git push
