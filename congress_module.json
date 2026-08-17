@@ -2,7 +2,7 @@
   "module_info": {
     "name": "KBB Kongreleri",
     "version": "1.1.0",
-    "last_updated": "2026-08-10",
+    "last_updated": "2026-08-17",
     "editorial_note": "Kongre bilgileri yalnızca resmî dernek web siteleri ve duyurulardan derlenmiştir. Tarihi henüz açıklanmayan etkinlikler 'awaiting_dates' olarak işaretlenmiştir. Herhangi bir kongreyi bildirmek veya güncellemek için resmî kaynakları kontrol ediniz."
   },
   "congresses": [
@@ -269,7 +269,7 @@
       "start_date": "2027-04-17",
       "end_date": "2027-04-20",
       "date_note": null,
-      "city": "Prague, Czech Republic",
+      "city": "Prague",
       "country": "Çek Cumhuriyeti",
       "venue": "Prague Congress Centre",
       "organizer": "European Society of Pediatric Otorhinolaryngology (ESPO)",
@@ -287,7 +287,7 @@
       "fee_info": null,
       "cme_info": null,
       "description": "18. ESPO Kongresi, Avrupa, ABD, Japonya, Çin ve Avustralya'dan pediatrik KBB uzmanlarını Prag'da buluşturmaktadır. Pediatrik işitme implantları, havayolu yönetimi ve pediatrik baş-boyun cerrahisi konularında kapsamlı bilimsel program sunulmaktadır.",
-      "last_checked": "2026-08-03",
+      "last_checked": "2026-08-17",
       "source_link": "https://www.espo2027.com/",
       "verification_status": "verified",
       "is_featured": false,
