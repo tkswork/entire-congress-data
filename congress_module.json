@@ -2,7 +2,7 @@
   "module_info": {
     "name": "KBB Kongreleri",
     "version": "1.1.0",
-    "last_updated": "2026-08-24",
+    "last_updated": "2026-08-31",
     "editorial_note": "Kongre bilgileri yalnızca resmî dernek web siteleri ve duyurulardan derlenmiştir. Tarihi henüz açıklanmayan etkinlikler 'awaiting_dates' olarak işaretlenmiştir. Herhangi bir kongreyi bildirmek veya güncellemek için resmî kaynakları kontrol ediniz."
   },
   "congresses": [
@@ -218,7 +218,7 @@
       "description": "\"Baş-Boyun Kanser Bakımında Küresel Harmonizasyon\" temalı 8. IFHNOS Dünya Kongresi, 58 ülkeden 70'ten fazla üye derneği Brisbane'de buluşturmaktadır. Cerrahi inovasyon, global sağlık eşitliği ve multidisipliner bakım konularında kapsamlı program sunulmaktadır.",
       "last_checked": "2026-07-11",
       "source_link": "https://ifhnos2026.org/au",
-      "verification_status": "verified",
+      "verification_status": "past",
       "is_featured": false,
       "category": "head_neck_oncology"
     },
@@ -341,8 +341,8 @@
         "laryngology",
         "pediatric_ent"
       ],
-      "start_date": "2027-04-30",
-      "end_date": "2027-05-02",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-13",
       "date_note": "Henüz açıklanmadı — genellikle Ekim-Kasım aylarında Türkiye'de düzenlenmektedir",
       "city": "Diyarbakır",
       "country": "Türkiye",
@@ -360,7 +360,7 @@
       "fee_info": null,
       "cme_info": "TTB-STE kredisi verilmektedir",
       "description": "Türk Kulak Burun Boğaz ve Baş Boyun Cerrahisi Derneği (KBB-BBC Derneği) tarafından her yıl düzenlenen ulusal kongre. Genel KBB, otoloji, rinoloji, laringoloji ve baş-boyun cerrahisi alanlarında bilimsel oturumlar, kurslar, panel tartışmaları ve kadavra uygulamaları içermektedir.",
-      "last_checked": "2026-08-24",
+      "last_checked": "2026-08-31",
       "source_link": "https://www.kbb.org.tr",
       "verification_status": "partially_verified",
       "is_featured": true,
