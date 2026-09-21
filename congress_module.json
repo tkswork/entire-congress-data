@@ -2,7 +2,7 @@
   "module_info": {
     "name": "KBB Kongreleri",
     "version": "1.1.0",
-    "last_updated": "2026-09-14",
+    "last_updated": "2026-09-21",
     "editorial_note": "Kongre bilgileri yalnızca resmî dernek web siteleri ve duyurulardan derlenmiştir. Tarihi henüz açıklanmayan etkinlikler 'awaiting_dates' olarak işaretlenmiştir. Herhangi bir kongreyi bildirmek veya güncellemek için resmî kaynakları kontrol ediniz."
   },
   "congresses": [
@@ -103,7 +103,7 @@
       "website": "https://politzer2026.org/",
       "registration_link": "https://www.politzer2026.org/",
       "abstract_deadline": "2026-04-30",
-      "early_registration_deadline": "2026-10-17",
+      "early_registration_deadline": "2026-07-17",
       "program_link": null,
       "speakers": [],
       "target_audience": "Otoloji uzmanları, nörootologlar, temporal kemik cerrahları, araştırmacılar",
@@ -112,7 +112,7 @@
       "fee_info": "Regular Registration by October 17, 2026",
       "cme_info": null,
       "description": "İki yılda bir düzenlenen 35. Politzer Derneği Toplantısı, Kore Otoloji Derneği ev sahipliğinde Seul'de gerçekleşmektedir. Otoskleroz, işitme kaybı, koklear implant, kafa tabanı otolojisi ve vestibüler bozukluklar konularında uluslararası otoloji ve nörootoloji uzmanlarını bir araya getirmektedir.",
-      "last_checked": "2026-09-14",
+      "last_checked": "2026-09-21",
       "source_link": "https://politzer2026.org/",
       "verification_status": "verified",
       "is_featured": false,
