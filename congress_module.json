@@ -2,7 +2,7 @@
   "module_info": {
     "name": "KBB Kongreleri",
     "version": "1.1.0",
-    "last_updated": "2026-09-28",
+    "last_updated": "2026-10-05",
     "editorial_note": "Kongre bilgileri yalnızca resmî dernek web siteleri ve duyurulardan derlenmiştir. Tarihi henüz açıklanmayan etkinlikler 'awaiting_dates' olarak işaretlenmiştir. Herhangi bir kongreyi bildirmek veya güncellemek için resmî kaynakları kontrol ediniz."
   },
   "congresses": [
@@ -134,7 +134,7 @@
       "date_note": null,
       "city": "Bangkok",
       "country": "Tayland",
-      "venue": "Centara Grand and Bangkok Convention Center at CentralWorld",
+      "venue": "Centara Grand and Bangkok Convention Centre at CentralWorld",
       "organizer": "Thai Rhinologic Society (TRS) / ISIAN / IRS",
       "website": "https://www.wrc-isian-irs-2026.org/",
       "registration_link": "https://wrc-isian-irs-2026.org/",
@@ -148,7 +148,7 @@
       "fee_info": "Early-bird by June 30, 2026",
       "cme_info": null,
       "description": "Dünya Rinoloji Kongresi 2026, Bangkok'ta 44. ISIAN ve 26. IRS toplantılarıyla eş zamanlı düzenlenmektedir. Biyolojik tedaviler, yapay zeka uygulamaları, alerji immunoterapisi, endoskopik kafa tabanı cerrahisi ve OSA yönetimini kapsamaktadır. Kongre sonrası 5-6 Kasım'da Chulalongkorn Üniversitesi'nde kadavra workshop'u planlanmaktadır.",
-      "last_checked": "2026-07-11",
+      "last_checked": "2026-10-05",
       "source_link": "https://www.wrc-isian-irs-2026.org/",
       "verification_status": "verified",
       "is_featured": false,
