@@ -87,10 +87,24 @@ def extract_fields(client: Anthropic, page_text: str) -> dict:
     return {k: v for k, v in data.items() if k in EXTRACT_FIELDS}
 
 
+def expected_year(congress: dict) -> str | None:
+    """Edition year from the existing start_date, else from an id ending in -YYYY."""
+    if congress.get("start_date"):
+        return congress["start_date"][:4]
+    tail = congress["id"].rsplit("-", 1)[-1]
+    return tail if tail.isdigit() and len(tail) == 4 else None
+
+
 def merge_updates(congress: dict, updates: dict, today: str) -> bool:
     changed = False
+    year = expected_year(congress)
     for key, new_value in updates.items():
         if new_value is None:
+            continue
+        # A society/landing page may show another edition's dates; never move a record to a
+        # different year automatically.
+        if key in ("start_date", "end_date") and year and not str(new_value).startswith(year):
+            print(f"  ! skipped {key}={new_value} (record year {year})", file=sys.stderr)
             continue
         old_value = congress.get(key)
         if new_value != old_value:
